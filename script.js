@@ -7,9 +7,8 @@ while ( isNaN(numN) ) {
     if ( n == '') {
         n = 0;
     };
-    numN = parseInt(Number.isInteger(n));
+    numN = parseInt(n);
 }
-
 
 console.log(numN, typeof(numN));
 
