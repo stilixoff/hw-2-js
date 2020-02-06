@@ -33,11 +33,11 @@ console.log(confirmType);
 let sum = 0;
 
 if ( confirmType == false) {
-    for ( let i = numN; i < numM; i++  ) {
+    for ( let i = numN; i <= numM; i++  ) {
         sum += i;
     }
 } else {
-    for ( let i = numN; i < numM; i++  ) {
+    for ( let i = numN; i <= numM; i++  ) {
         if (i%2 == 0) continue;
         sum += i;
     }
