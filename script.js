@@ -2,7 +2,7 @@ let n, numN;
 n = prompt(`Введи целое число N`);
 numN = parseInt(n);
 
-while ( isNaN(numN) ) {
+while ( isNaN(numN) || n - Math.floor(n) !==0 ) {
     n = prompt(`Введи целое число N`);
     if ( n == '') {
         n = 0;
@@ -16,7 +16,7 @@ let m, numM;
 m = prompt(`Введи целое число M`);
 numM = parseInt(m);
 
-while ( isNaN(numM) ) {
+while ( isNaN(numM) || m - Math.floor(m) !==0 ) {
     m = prompt(`Введи целое число M`);
     if ( m == '') {
         m = 0;
